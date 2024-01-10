@@ -21,7 +21,6 @@ def freq(N):                                                                    
     frequenze=[]                                                                                                                     #Genera un numero,inserito dall'utente,  di frequenze e ampiezze con la 
     ampiezze=[]                                                                                                                      #distribuzione di probabilità data tramite il processo della cumulativa
     a=0
-    b=5
     for i in range (N):
         u1=np.random.random()
         u2=np.random.random()
