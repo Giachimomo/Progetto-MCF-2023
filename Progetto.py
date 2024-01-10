@@ -10,7 +10,7 @@ c=3*10**8                                                                       
 def parse_arguments():                                                                                                               #Funzione Argparse
     
     parser = argparse.ArgumentParser(description="Pacchetti d'onda.",
-                                     usage      ='python3 Progetto.py  --PacchettoN')
+                                     usage      ='python3 NomeFile.py  --PacchettoN')
     parser.add_argument('-a', '--Pacchetto1',    action='store_true',                     help='Simulazione primo pacchetto')
     parser.add_argument('-b', '--Pacchetto2',    action='store_true',                     help='Simulazione secondo pacchetto')
     parser.add_argument('-c', '--Pacchetto3',    action='store_true',                     help='Simulazione terzo pacchetto')
